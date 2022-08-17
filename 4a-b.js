@@ -20,7 +20,7 @@ ratingData.map((restO, index) => {
     }
 });
 
-restList.map((restL, indexL) => {
+restList.map((restL) => {
     var rec = ratingData.filter(p => p.restaurant === restL);
     var averageRating = 0;
     rec.map(v => {
